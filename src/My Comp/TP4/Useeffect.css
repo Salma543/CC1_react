@@ -1,0 +1,23 @@
+/* Useeffect.css */
+.useeffect-container {
+    text-align: center;
+    margin: 30px;
+  }
+  
+  
+  
+  img {
+    max-width: 100%;
+    height: 400px;
+    width: 600px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 5px 10px 20px rgb(7, 1, 1); /* Ajout de l'ombre */
+  }
+  @media (max-width: 768px) {
+    .useeffect-container{
+        margin-top: 75px;
+    }
+  }
